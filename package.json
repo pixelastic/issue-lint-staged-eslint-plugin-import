@@ -4,5 +4,13 @@
   "type": "module",
   "license": "MIT",
   "main": "index.js",
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "eslint": "9.12.0",
+    "eslint-plugin-import": "2.31.0",
+    "lint-staged": "15.2.10"
+  },
+  "scripts": {
+    "test": "eslint ./file.js"
+  }
 }
